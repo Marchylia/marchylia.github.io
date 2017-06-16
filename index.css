@@ -1,0 +1,161 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+width: 95%;
+margin: auto;
+border: 0px none;
+padding: 2%;
+}
+
+.navigation-bar {
+width: 100%;
+height: 100%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+.navigation-bar img {
+flex: 0 0 auto;
+margin: 2%;
+padding: 2%;
+height: 150px;
+width: 150px;
+background-image: url(/images/byu-idaho_lisenceplatelogo_800x800.png);
+background-size: 150px 250px;
+background-position: center;
+background-repeat: no-repeat;
+}
+.navigation-bar ul {
+list-style-type: none;
+background-color: none;
+flex: 0 auto auto;
+display: flex;
+justify-content: center;
+align-content: center;
+margin: auto;
+padding: 2%;
+height: 100px;
+width: auto;
+}
+.navigation-bar li a {
+text-decoration: none;
+background-color: none;
+flex: 0 0 auto;
+display: flex;
+justify-content: center;
+align-content: center;
+margin: 0.5em;
+padding: 2px;
+height: auto;
+width: auto;
+font-family: 'Anton', sans-serif;
+color: darkgoldenrod;
+font-size: 0.9em;
+}
+header h1 {
+display: flex;
+justify-content: center;
+align-content: center;
+padding: 1%;
+font-family: 'Actor', sans-serif;
+color: black;
+font-size: 1.3em;
+padding: 1%;
+font-family: 'Actor', sans-serif;
+color: black;
+font-size: 1.3em;
+}
+
+main {
+display: flex;
+width: auto;
+height: auto;
+margin: auto;
+border: 0px none;
+}
+
+.past_assignments {
+margin: 3%;
+padding: 2px;
+flex: 0 0 auto;
+align-self: auto;
+min-width: ;
+min-height: ;
+font-family: 'Actor', sans-serif;
+color: black;
+font-size: auto;
+}
+.past_assignments a {
+text-decoration: none;
+text-decoration-color: darkgoldenrod;
+}
+
+.website_projects {
+margin: 3%;
+padding: 2px;
+flex: 0 0 auto;
+align-self: auto;
+min-width: ;
+min-height: ;
+font-family: 'Actor', sans-serif;
+color: black;
+font-size: auto;
+}
+.website_projects a {
+text-decoration: none;
+text-decoration-color: darkgoldenrod;
+}
+
+.volunteered_projects {
+margin: 3%;
+padding: 2px;
+flex: 0 0 auto;
+align-self: auto;
+min-width: ;
+min-height: ;
+font-family: 'Actor', sans-serif;
+color: black;
+font-size: auto;
+}
+.volunteered_projects a {
+text-decoration: none;
+text-decoration-color: darkgoldenrod;
+}
+
+footer {
+width: 100%;
+height: 100%;
+margin: auto;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+footer a {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 1%;
+font-family: 'Anton', sans-serif;
+font-size: 0.85em;
+text-decoration: none;
+text-decoration-color: darkgoldenrod;
+}
+footer address {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 1%;
+}
+footer h6 {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 1%;
+font-family: 'Actor', sans-serif;
+}
